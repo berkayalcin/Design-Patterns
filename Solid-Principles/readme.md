@@ -11,7 +11,7 @@
 
     - Classes should be open for extension but closed for modification.
     
-- Liskov Substition Means :
+- Liskov Substition :
 
     - You should be able to substitute a base type for a subtype.
     
