@@ -40,6 +40,7 @@
           <e p="SizeSpecification.cs" t="Include" />
         </e>
         <e p="Program.cs" t="Include" />
+        <e p="readme.md" t="Include" />
         <e p="Single-Responsiblity" t="Include">
           <e p="Journal.cs" t="Include" />
           <e p="Persistence.cs" t="Include" />
