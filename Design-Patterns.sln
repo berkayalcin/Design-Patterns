@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral-Patterns", "Beha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{9F85E055-246F-492A-B66A-DFF959DCC7F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent-Builder", "Fluent-Builder\Fluent-Builder.csproj", "{88F5BCA0-741E-4CAD-AB93-CD5C46761AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,8 +26,13 @@ Global
 		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F5BCA0-741E-4CAD-AB93-CD5C46761AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F5BCA0-741E-4CAD-AB93-CD5C46761AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F5BCA0-741E-4CAD-AB93-CD5C46761AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F5BCA0-741E-4CAD-AB93-CD5C46761AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9F85E055-246F-492A-B66A-DFF959DCC7F6} = {9735F304-54E7-4EC9-9F35-E0CB2DB02860}
+		{88F5BCA0-741E-4CAD-AB93-CD5C46761AC4} = {9735F304-54E7-4EC9-9F35-E0CB2DB02860}
 	EndGlobalSection
 EndGlobal
