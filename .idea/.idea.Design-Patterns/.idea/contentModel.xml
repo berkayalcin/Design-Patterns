@@ -24,8 +24,6 @@
       <e p="Fluent-Builder" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="Fluent-Builder.csproj" t="IncludeRecursive" />
-        <e p="HtmlBuilder.cs" t="Include" />
-        <e p="HtmlElement.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp3.1" t="Include">
@@ -33,6 +31,10 @@
             </e>
           </e>
         </e>
+        <e p="Person.cs" t="Include" />
+        <e p="PersonBuilder.cs" t="Include" />
+        <e p="PersonInfoBuilder.cs" t="Include" />
+        <e p="PersonJobBuilder.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />

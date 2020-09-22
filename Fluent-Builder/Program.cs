@@ -1,17 +1,17 @@
 ﻿using System;
-using Builder;
 
 namespace Fluent_Builder
 {
+    // Class Foo : Bar<Foo> Recursive Generics
+
     class Program
     {
         static void Main(string[] args)
         {
-            var builder = new HtmlBuilder("ul");
-            builder
-                .AddChild("li","Hello")
-                .AddChild("li","World");
-            Console.WriteLine(builder);
+            var person = Person.New.Called("Berkay")
+                .WorksAsA("Software Engineer")
+                .Build();
+            Console.WriteLine(person.ToString());
         }
     }
 }
