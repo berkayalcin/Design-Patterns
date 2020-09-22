@@ -2,6 +2,14 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid-Principles", "Solid-Principles\Solid-Principles.csproj", "{EFB26FFC-E8A5-468B-8BBB-A93E1CD5A466}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational-Patterns", "Creational-Patterns", "{9735F304-54E7-4EC9-9F35-E0CB2DB02860}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural-Patterns", "Structural-Patterns", "{69847EE7-AB99-47E8-A765-0D306648C108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral-Patterns", "Behavioral-Patterns", "{D19D6D87-E4AE-4A96-A973-6C7958E04529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{9F85E055-246F-492A-B66A-DFF959DCC7F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +20,12 @@ Global
 		{EFB26FFC-E8A5-468B-8BBB-A93E1CD5A466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB26FFC-E8A5-468B-8BBB-A93E1CD5A466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB26FFC-E8A5-468B-8BBB-A93E1CD5A466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F85E055-246F-492A-B66A-DFF959DCC7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F85E055-246F-492A-B66A-DFF959DCC7F6} = {9735F304-54E7-4EC9-9F35-E0CB2DB02860}
 	EndGlobalSection
 EndGlobal
