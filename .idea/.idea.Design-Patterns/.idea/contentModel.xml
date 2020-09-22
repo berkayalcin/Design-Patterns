@@ -37,6 +37,22 @@
         <e p="PersonJobBuilder.cs" t="Include" />
         <e p="Program.cs" t="Include" />
       </e>
+      <e p="Functional-Builder" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Functional-Builder.csproj" t="IncludeRecursive" />
+        <e p="FunctionalBuilder.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Functional-Builder.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Person.cs" t="Include" />
+        <e p="PersonBuilder.cs" t="Include" />
+        <e p="PersonBuilderExtensions.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Solid-Principles" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
