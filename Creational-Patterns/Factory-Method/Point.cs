@@ -7,7 +7,7 @@ namespace Factory
         private double _x, _y;
 
         /// <summary>
-        /// Factory Method
+        /// Factory-Method Method
         /// </summary>
         /// <param name="x">X Coordinate</param>
         /// <param name="y">Y Coordinate</param>

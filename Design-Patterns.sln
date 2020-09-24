@@ -16,7 +16,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent-Builder", "Creationa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functional-Builder", "Creational-Patterns\Functional-Builder\Functional-Builder.csproj", "{6530B2E1-C470-497F-A6BB-7553239515A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Creational-Patterns\Factory\Factory.csproj", "{A81B2A37-315A-4F56-9B6F-2A6D370FD016}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory-Method", "Creational-Patterns\Factory-Method\Factory-Method.csproj", "{A81B2A37-315A-4F56-9B6F-2A6D370FD016}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Async-Factory", "Creational-Patterns\Async-Factory\Async-Factory.csproj", "{01FFBA52-78AD-4979-B102-B9247113FAC4}"
 EndProject
