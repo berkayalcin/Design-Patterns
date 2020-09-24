@@ -18,6 +18,8 @@ namespace Factory
         }
 
 
+        public static readonly Point Origin = new Point(0, 0);
+
         public static class Factory
         {
             /// <summary>

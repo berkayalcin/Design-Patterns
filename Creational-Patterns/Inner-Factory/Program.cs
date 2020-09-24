@@ -8,6 +8,7 @@ namespace Inner_Factory
         static void Main(string[] args)
         {
             var point = Point.Factory.NewCartesianPoint(1, 3);
+            var origin = Point.Origin;
             Console.WriteLine(point);
         }
     }
