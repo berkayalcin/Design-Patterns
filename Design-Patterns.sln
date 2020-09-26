@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vector-Raster-Demo", "Creat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic-Value-Adapter", "Creational-Patterns\Adapter-Patterns\Generic-Value-Adapter\Generic-Value-Adapter.csproj", "{C7974A58-4B23-46B9-98C3-11FA1C9621A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-In-DI", "Creational-Patterns\Adapter-Patterns\Adapter-In-DI\Adapter-In-DI.csproj", "{AFA4D084-94A0-40B8-BD6B-5D67F2D01EAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{C7974A58-4B23-46B9-98C3-11FA1C9621A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7974A58-4B23-46B9-98C3-11FA1C9621A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7974A58-4B23-46B9-98C3-11FA1C9621A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFA4D084-94A0-40B8-BD6B-5D67F2D01EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFA4D084-94A0-40B8-BD6B-5D67F2D01EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFA4D084-94A0-40B8-BD6B-5D67F2D01EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFA4D084-94A0-40B8-BD6B-5D67F2D01EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1A9C989-DF90-46F3-941F-098987D707E5} = {232EC037-54DB-4DC5-A994-6141849FE964}
@@ -152,5 +158,6 @@ Global
 		{42AC6CE3-17E1-4641-9DF7-2F0FDE3DD755} = {9EDFCCAC-2707-4D84-A843-440247F39F65}
 		{18E4E402-7F91-44BE-9386-45F29532237D} = {FA2F0B85-EE67-4F84-AD3D-684E9410435A}
 		{C7974A58-4B23-46B9-98C3-11FA1C9621A1} = {FA2F0B85-EE67-4F84-AD3D-684E9410435A}
+		{AFA4D084-94A0-40B8-BD6B-5D67F2D01EAC} = {FA2F0B85-EE67-4F84-AD3D-684E9410435A}
 	EndGlobalSection
 EndGlobal
