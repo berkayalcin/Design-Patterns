@@ -3,7 +3,7 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>Exercise_1</RootNamespace>
+        <RootNamespace>Multiple_Inheritance_Default_Interface_Members</RootNamespace>
     </PropertyGroup>
 
 </Project>
