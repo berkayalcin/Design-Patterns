@@ -1,0 +1,8 @@
+Tokyo
+30010
+New York
+60001
+Sao Paulo
+90000
+New Jersy
+100000
