@@ -38,6 +38,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluent-Builder", "Creationa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functional-Builder", "Creational-Patterns\Builder-Patterns\Functional-Builder\Functional-Builder.csproj", "{D23533CC-1B17-4E1B-B35F-148BED8C3C65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Per-Thread-Singleton", "Creational-Patterns\Singleton-Patterns\Per-Thread-Singleton\Per-Thread-Singleton.csproj", "{93477142-011D-45F8-A2CD-E8891FC689CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -100,6 +102,10 @@ Global
 		{D23533CC-1B17-4E1B-B35F-148BED8C3C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D23533CC-1B17-4E1B-B35F-148BED8C3C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D23533CC-1B17-4E1B-B35F-148BED8C3C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93477142-011D-45F8-A2CD-E8891FC689CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93477142-011D-45F8-A2CD-E8891FC689CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93477142-011D-45F8-A2CD-E8891FC689CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93477142-011D-45F8-A2CD-E8891FC689CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1A9C989-DF90-46F3-941F-098987D707E5} = {232EC037-54DB-4DC5-A994-6141849FE964}
@@ -118,5 +124,6 @@ Global
 		{E3712E3F-D37F-42BF-AA64-C89BD54650D6} = {711E626B-295E-4A8E-984C-37637F94365F}
 		{BB9B955A-9E5D-4075-88F2-42E8E92B567E} = {711E626B-295E-4A8E-984C-37637F94365F}
 		{D23533CC-1B17-4E1B-B35F-148BED8C3C65} = {711E626B-295E-4A8E-984C-37637F94365F}
+		{93477142-011D-45F8-A2CD-E8891FC689CB} = {E0A412EC-9025-4E69-8C44-85D951E58FD3}
 	EndGlobalSection
 EndGlobal
