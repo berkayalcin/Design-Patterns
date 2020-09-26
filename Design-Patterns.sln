@@ -40,6 +40,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Functional-Builder", "Creat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Per-Thread-Singleton", "Creational-Patterns\Singleton-Patterns\Per-Thread-Singleton\Per-Thread-Singleton.csproj", "{93477142-011D-45F8-A2CD-E8891FC689CB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambient-Context", "Creational-Patterns\Singleton-Patterns\Ambient-Context\Ambient-Context.csproj", "{B4C7C596-875F-40D0-8A54-04D473DFB098}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -106,6 +108,10 @@ Global
 		{93477142-011D-45F8-A2CD-E8891FC689CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93477142-011D-45F8-A2CD-E8891FC689CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93477142-011D-45F8-A2CD-E8891FC689CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C7C596-875F-40D0-8A54-04D473DFB098}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C7C596-875F-40D0-8A54-04D473DFB098}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C7C596-875F-40D0-8A54-04D473DFB098}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C7C596-875F-40D0-8A54-04D473DFB098}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1A9C989-DF90-46F3-941F-098987D707E5} = {232EC037-54DB-4DC5-A994-6141849FE964}
@@ -125,5 +131,6 @@ Global
 		{BB9B955A-9E5D-4075-88F2-42E8E92B567E} = {711E626B-295E-4A8E-984C-37637F94365F}
 		{D23533CC-1B17-4E1B-B35F-148BED8C3C65} = {711E626B-295E-4A8E-984C-37637F94365F}
 		{93477142-011D-45F8-A2CD-E8891FC689CB} = {E0A412EC-9025-4E69-8C44-85D951E58FD3}
+		{B4C7C596-875F-40D0-8A54-04D473DFB098} = {E0A412EC-9025-4E69-8C44-85D951E58FD3}
 	EndGlobalSection
 EndGlobal
