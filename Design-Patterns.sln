@@ -70,6 +70,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom-String-Builder", "Cr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter-Decorator", "Creational-Patterns\Decorator-Patterns\Adapter-Decorator\Adapter-Decorator.csproj", "{FC551E34-5E92-42DE-9842-7E20EBF748F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple-Inheritance", "Creational-Patterns\Decorator-Patterns\Multiple-Inheritance\Multiple-Inheritance.csproj", "{BF982D43-400A-414F-A39A-CF764FEB02C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -176,6 +178,10 @@ Global
 		{FC551E34-5E92-42DE-9842-7E20EBF748F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC551E34-5E92-42DE-9842-7E20EBF748F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC551E34-5E92-42DE-9842-7E20EBF748F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF982D43-400A-414F-A39A-CF764FEB02C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF982D43-400A-414F-A39A-CF764FEB02C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF982D43-400A-414F-A39A-CF764FEB02C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF982D43-400A-414F-A39A-CF764FEB02C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1A9C989-DF90-46F3-941F-098987D707E5} = {232EC037-54DB-4DC5-A994-6141849FE964}
@@ -210,5 +216,6 @@ Global
 		{AC9DE9DB-A771-4B6F-A20C-3A7383257E1A} = {22CD3398-EB4D-4663-B28E-D45116A56C0C}
 		{10339A52-BDBA-4444-AA30-9ABE3CC3A8AC} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
 		{FC551E34-5E92-42DE-9842-7E20EBF748F8} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
+		{BF982D43-400A-414F-A39A-CF764FEB02C5} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
 	EndGlobalSection
 EndGlobal
