@@ -60,6 +60,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite-Patterns", "Compo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geometric-Shapes", "Creational-Patterns\Composite-Patterns\Geometric-Shapes\Geometric-Shapes.csproj", "{CE6454D1-A70B-45E0-BE17-DC4CEB1946B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neural-Networks", "Creational-Patterns\Composite-Patterns\Neural-Networks\Neural-Networks.csproj", "{3635D0A8-D7D3-4749-AA92-ACAD25927BB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -150,6 +152,10 @@ Global
 		{CE6454D1-A70B-45E0-BE17-DC4CEB1946B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE6454D1-A70B-45E0-BE17-DC4CEB1946B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE6454D1-A70B-45E0-BE17-DC4CEB1946B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3635D0A8-D7D3-4749-AA92-ACAD25927BB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3635D0A8-D7D3-4749-AA92-ACAD25927BB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3635D0A8-D7D3-4749-AA92-ACAD25927BB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3635D0A8-D7D3-4749-AA92-ACAD25927BB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D1A9C989-DF90-46F3-941F-098987D707E5} = {232EC037-54DB-4DC5-A994-6141849FE964}
@@ -179,5 +185,6 @@ Global
 		{A1FC8610-4925-45E4-B931-98FCC885BC22} = {D47DC1F3-5696-4CCC-8A60-BB78A03B21C4}
 		{42201536-F86F-44A5-9EA1-60D438B65B41} = {22CD3398-EB4D-4663-B28E-D45116A56C0C}
 		{CE6454D1-A70B-45E0-BE17-DC4CEB1946B8} = {42201536-F86F-44A5-9EA1-60D438B65B41}
+		{3635D0A8-D7D3-4749-AA92-ACAD25927BB1} = {42201536-F86F-44A5-9EA1-60D438B65B41}
 	EndGlobalSection
 EndGlobal
