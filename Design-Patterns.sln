@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamic-Decorator-Compositi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static-Decorator-Composition", "Structural-Patterns\Decorator-Patterns\Static-Decorator-Composition\Static-Decorator-Composition.csproj", "{FB9DEC18-1094-4A7F-98CE-14EB081764DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator-In-DI", "Structural-Patterns\Decorator-Patterns\Decorator-In-DI\Decorator-In-DI.csproj", "{D3F83FD9-4D9E-417A-8DB6-E90F1CD44A4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -194,6 +196,10 @@ Global
 		{FB9DEC18-1094-4A7F-98CE-14EB081764DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB9DEC18-1094-4A7F-98CE-14EB081764DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB9DEC18-1094-4A7F-98CE-14EB081764DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F83FD9-4D9E-417A-8DB6-E90F1CD44A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F83FD9-4D9E-417A-8DB6-E90F1CD44A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F83FD9-4D9E-417A-8DB6-E90F1CD44A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F83FD9-4D9E-417A-8DB6-E90F1CD44A4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0A412EC-9025-4E69-8C44-85D951E58FD3} = {22CD3398-EB4D-4663-B28E-D45116A56C0C}
@@ -231,5 +237,6 @@ Global
 		{96853A65-3ADF-4BAE-8F4C-908B8DFA4178} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
 		{BED48C01-BB6E-4B36-9087-5F82100C901F} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
 		{FB9DEC18-1094-4A7F-98CE-14EB081764DD} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
+		{D3F83FD9-4D9E-417A-8DB6-E90F1CD44A4E} = {AC9DE9DB-A771-4B6F-A20C-3A7383257E1A}
 	EndGlobalSection
 EndGlobal
