@@ -86,6 +86,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight-Patterns", "Flywe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repeating-Usernames", "Structural-Patterns\Flyweight-Patterns\Repeating-Usernames\Repeating-Usernames.csproj", "{B6E0D671-91EF-41BE-828A-9C1843FA8DA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Text-Formatting", "Structural-Patterns\Flyweight-Patterns\Text-Formatting\Text-Formatting.csproj", "{DC4DAD7B-84F5-4872-9316-5EB41B37ED54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -216,6 +218,10 @@ Global
 		{B6E0D671-91EF-41BE-828A-9C1843FA8DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E0D671-91EF-41BE-828A-9C1843FA8DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E0D671-91EF-41BE-828A-9C1843FA8DA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC4DAD7B-84F5-4872-9316-5EB41B37ED54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC4DAD7B-84F5-4872-9316-5EB41B37ED54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC4DAD7B-84F5-4872-9316-5EB41B37ED54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC4DAD7B-84F5-4872-9316-5EB41B37ED54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0A412EC-9025-4E69-8C44-85D951E58FD3} = {22CD3398-EB4D-4663-B28E-D45116A56C0C}
@@ -258,5 +264,6 @@ Global
 		{DAE24A71-C9B8-4193-9890-DC93A37AFB70} = {258651B5-22C4-480E-B68C-FE76817DB598}
 		{2E120DA1-D85F-4FD6-869D-EEE96282202D} = {11285385-B74C-4BD1-9798-8DA5366BFA4F}
 		{B6E0D671-91EF-41BE-828A-9C1843FA8DA7} = {2E120DA1-D85F-4FD6-869D-EEE96282202D}
+		{DC4DAD7B-84F5-4872-9316-5EB41B37ED54} = {2E120DA1-D85F-4FD6-869D-EEE96282202D}
 	EndGlobalSection
 EndGlobal
