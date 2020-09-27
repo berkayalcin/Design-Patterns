@@ -98,6 +98,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value-Proxy", "Structural-P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite-Proxy", "Structural-Patterns\Proxy-Patterns\Composite-Proxy\Composite-Proxy.csproj", "{578BD61F-392A-404B-BB3B-53760B573DA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite-Proxy-Property", "Structural-Patterns\Proxy-Patterns\Composite-Proxy-Property\Composite-Proxy-Property.csproj", "{7C89364C-A680-43D6-AC15-ABF34B029C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -248,6 +250,10 @@ Global
 		{578BD61F-392A-404B-BB3B-53760B573DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{578BD61F-392A-404B-BB3B-53760B573DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{578BD61F-392A-404B-BB3B-53760B573DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C89364C-A680-43D6-AC15-ABF34B029C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C89364C-A680-43D6-AC15-ABF34B029C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C89364C-A680-43D6-AC15-ABF34B029C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C89364C-A680-43D6-AC15-ABF34B029C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E0A412EC-9025-4E69-8C44-85D951E58FD3} = {22CD3398-EB4D-4663-B28E-D45116A56C0C}
@@ -296,5 +302,6 @@ Global
 		{BFD826DD-E861-4EDE-B9F5-5439E29C71A0} = {E2985306-02B5-47FD-9F04-C161DAC5C306}
 		{241850AB-E31D-4A93-AFE8-1962E243D035} = {E2985306-02B5-47FD-9F04-C161DAC5C306}
 		{578BD61F-392A-404B-BB3B-53760B573DA4} = {E2985306-02B5-47FD-9F04-C161DAC5C306}
+		{7C89364C-A680-43D6-AC15-ABF34B029C01} = {E2985306-02B5-47FD-9F04-C161DAC5C306}
 	EndGlobalSection
 EndGlobal
