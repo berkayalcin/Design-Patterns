@@ -1,11 +1,4 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=27039df6_002D2412_002D4687_002D9320_002D0c85ab586b14/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SingletonTests #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::3BCDF81B-74AE-4AD3-A6A4-0860370E2D0F::.NETCoreApp,Version=v3.1::Hated_Singleton.SingletonTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=ec9d9f5d_002Df4e8_002D4012_002D85da_002Dc25c2d2b67a3/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SingletonTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::3BCDF81B-74AE-4AD3-A6A4-0860370E2D0F::.NETCoreApp,Version=v3.1::Hated_Singleton.SingletonTests&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=77cccf52_002Db9da_002D4273_002Db17a_002Dd7bb0b6f8edf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="TestUser" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;ProjectFile&gt;B6E0D671-91EF-41BE-828A-9C1843FA8DA7/f:UserTests.cs&lt;/ProjectFile&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
