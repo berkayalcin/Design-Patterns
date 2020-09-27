@@ -49,6 +49,8 @@ namespace Command_Pattern
             }
         }
 
+        public bool Success { get; set; }
+
         public enum Action
         {
             Deposit,

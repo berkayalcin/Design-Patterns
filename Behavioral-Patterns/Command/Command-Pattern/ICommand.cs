@@ -4,5 +4,7 @@ namespace Command_Pattern
     {
         void Call();
         void Undo();
+
+        bool Success { get; set; }
     }
 }

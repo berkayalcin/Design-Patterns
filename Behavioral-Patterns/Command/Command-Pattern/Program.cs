@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using static System.Console;
 
@@ -8,23 +9,21 @@ namespace Command_Pattern
     {
         static void Main(string[] args)
         {
-            var bankAccount = new BankAccount();
+            var from = new BankAccount();
+            from.Deposit(100);
 
-            var commands = new List<BankAccountCommand>()
-            {
-                new BankAccountCommand(bankAccount, BankAccountCommand.Action.Deposit, 100),
-                new BankAccountCommand(bankAccount, BankAccountCommand.Action.Withdraw, 1000),
-            };
+            var to = new BankAccount();
 
-            WriteLine(bankAccount);
 
-            foreach (var bankAccountCommand in commands) bankAccountCommand.Call();
+            var mtc = new MoneyTransferCommand(from, to, 100);
+            mtc.Call();
 
-            WriteLine(bankAccount);
+            WriteLine(from);
+            WriteLine(to);
 
-            foreach (var bankAccountCommand in Enumerable.Reverse(commands)) bankAccountCommand.Undo();
-
-            WriteLine(bankAccount);
+            mtc.Undo();
+            WriteLine(from);
+            WriteLine(to);
         }
     }
 }
