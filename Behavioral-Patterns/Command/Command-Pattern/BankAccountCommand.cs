@@ -7,6 +7,7 @@ namespace Command_Pattern
         private BankAccount _bankAccount;
         private Action _action;
         private int _amount;
+        private bool _succeded;
 
 
         public BankAccountCommand(BankAccount bankAccount, Action action, int amount)
@@ -21,10 +22,27 @@ namespace Command_Pattern
             switch (_action)
             {
                 case Action.Deposit:
-                    _bankAccount.Deposit(_amount);
+                    _succeded = _bankAccount.Deposit(_amount);
                     break;
                 case Action.Withdraw:
+                    _succeded = _bankAccount.Withdraw(_amount);
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
+        }
+
+        public void Undo()
+        {
+            if (!_succeded) return;
+
+            switch (_action)
+            {
+                case Action.Deposit:
                     _bankAccount.Withdraw(_amount);
+                    break;
+                case Action.Withdraw:
+                    _bankAccount.Deposit(_amount);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException();
